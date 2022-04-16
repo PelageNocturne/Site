@@ -342,7 +342,7 @@ footer .colonnes {
 
 .boite-index{
     background: #1d1e20;
-    border-radius: 5px;
+    border-radius: 50px;
     text-align: center;
     width: 80vw;
     padding: 2%;
@@ -380,7 +380,7 @@ footer .colonnes {
     size: 50%;
 }
 
-.boite-index .wallpaper2{
+.wallpaper2{
     size-adjust: 50%;
 }
 

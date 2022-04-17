@@ -1,0 +1,135 @@
+@media screen and (max-width: 750px) {
+    .r-body-inner{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        max-width: 100vw;
+    }
+
+    .back {
+        padding: 20px;
+    }
+
+    .main-block {
+        padding: 0% 5% 40px;
+        flex: calc(33.3333% - 10%);
+    }
+
+    .bienv{
+        width: 80vw;
+        margin: 0 10vw;
+    }
+
+    #RRC-header-bg {
+        top: -10%;
+        background-size: 200%;
+    }
+
+    #Mdt-header {
+        top: -10%;
+        height: 270px;
+    }
+
+    #Mdt-header .header-logo {
+        top: 35%;
+        width: 100%;
+    }
+
+    .container.main-container {
+        top: -100px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .mobile {
+        width: 42px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .mobile span {
+        width: 42px;
+        height: 4px;
+        background-color: #24252A;
+        display: block;
+        position: absolute;
+        top: 32px;
+        transform: translateY(-50%);
+        transition: background-color 0.5s ease-in-out;
+        z-index: 10000;
+    }
+
+    .mobile span::before,
+    .mobile span::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 5px;
+        background-color: #24252A;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .mobile span::before {
+        transform: translateY(-10px);
+    }
+
+    .mobile span::after {
+        transform: translateY(10px);
+    }
+
+    .mobile.active span {
+        background-color: transparent;
+        position: fixed;
+    }
+
+    .mobile.active span::before {
+        transform: translateY(0px) rotateZ(-45deg);
+    }
+
+    body.active {
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

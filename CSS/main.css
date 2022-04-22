@@ -386,6 +386,7 @@ footer .colonnes {
     align-items: center;
     size-adjust: auto;
     text-align: center;
+    justify-content: center;
 }
 
 

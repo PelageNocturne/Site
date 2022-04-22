@@ -380,8 +380,11 @@ footer .colonnes {
     size: 50%;
 }
 
-.wallpaper2{
-    size-adjust: 50%;
+.wallpaper{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    size-adjust: auto;
 }
 
 

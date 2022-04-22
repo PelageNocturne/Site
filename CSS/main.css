@@ -385,6 +385,7 @@ footer .colonnes {
     display: flex;
     align-items: center;
     size-adjust: auto;
+    text-align: center;
 }
 
 

@@ -363,13 +363,9 @@ footer .colonnes {
     size: 50%;
 }
 
-.wallpaper{
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    size-adjust: auto;
-    text-align: center;
-    justify-content: center;
+#img_wallpaper{
+    width: auto;
+    height: auto;
 }
 
 

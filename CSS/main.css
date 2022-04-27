@@ -363,7 +363,7 @@ footer .colonnes {
     size: 50%;
 }
 
-#img_wallpaper{
+.boite-index .wallpaper{
     width: auto;
     height: auto;
 }

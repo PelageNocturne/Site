@@ -45,23 +45,43 @@
                 
             </div>
         </div>
-        <script src="main.js"></script>
-    <form>
-        <section class="connexion">
-            <h1>Se connecter</h1>
-            <div class="social-media">
-            </div>
-            <div class="inputs">
-                <input type="email" placeholder="Adresse e-mail">
-                <input type="password" placeholder="Mot de passe">
-            </div>
 
-            <p class="inscription">Je n'est pas de <span>compte</span>. J'en <span>crée</span> un</p>
-            <div align="center">
-                <button type="submit">Se connecter</button>
-            </div>
-        </section>
-    </form>
+<?php include 'index.html'; ?>
+
+<form method="post">
+    <input type="text" name="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="main.js"></script>
     <footer>

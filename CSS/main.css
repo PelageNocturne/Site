@@ -337,6 +337,7 @@ footer .colonnes {
     font-size: 20px;
     color: #FDCD2D;
     text-align: left;
+    text-shadow: #1a1a1a;
 }
 
 .update-date{
@@ -365,7 +366,8 @@ footer .colonnes {
 
 .boite-index .wallpaper{
     width: 100%;
-    height: auto;
+    height: 100%;
+    
 }
 
 

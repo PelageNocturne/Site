@@ -2,48 +2,47 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="../icon.ico">
+        <link rel="icon" href="icon.ico">
         <title>Lenoria | Connexion</title>
-        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="CSS/login.css">
         <script src="https://kit.fontawesome.com/9ab044b390.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="menu">
-            <div class="back">
-                <div class="mobile">
-                    <span></span>
-                </div>
-                <div class="items">
-                    <a href="index.html" class="item">Accueil</a>
-                    <a href="news.html" class="item">News</a>
-                    <a href="reseaux.html" class="item">Réseaux</a>
-                    <a href="boutique.html" class="item">Boutique</a>
-                    <a href="wiki.html" class="item">Wiki</a>
-                </div>
+      <div class="menu">
+        <div class="back">
+            <div class="mobile">
+                <span></span>
+            </div>
+            <div class="items">
+                <a href="index.html" class="item">Accueil</a>
+                <a href="news.html" class="item">News</a>
+                <a href="reseaux.html" class="item">Réseaux</a>
+                <a href="boutique.html" class="item">Boutique</a>
+                <a href="wiki.html" class="item">Wiki</a>
             </div>
         </div>
-        <div class="RRC-header-bg"></div>
-        <div class="header">
-            <div class="header-nav">
-                <div class="header-inner container">
-                    <div class="RRC-nav-items">
-                        <div class="logo--1">
-                            <img class="logo" src="../icon.ico" alt="logo" width="50">
-                        </div>
-                        <div class="item--1">
-                            <a href="index.html" class="item">Accueil</a>
-                            <a href="news.html" class="item">News</a>
-                            <a href="reseaux.html" class="item">Réseaux</a>
-                            <a href="boutique.html" class="item">Boutique</a>
-                            <a href="wiki.html" class="item">Wiki</a>
-                        </div>
-                        <div class="item--2">
-                            <a href="connexion.html" class="item-connexion"><button>Connexion</button></a>
-                        </div>
+    </div>
+    <div class="RRC-header-bg"></div>
+    <div class="header">
+        <div class="header-nav">
+            <div class="header-inner container">
+                <div class="RRC-nav-items">
+                    <div class="logo--1">
+                        <img class="logo" src="icon.ico" alt="logo" width="50">
                     </div>
+                    <div class="item--1">
+                        <a href="index.html" class="item active">Accueil</a>
+                        <a href="news.html" class="item">News</a>
+                        <a href="reseaux.html" class="item">Réseaux</a>
+                        <a href="boutique.html" class="item">Boutique</a>
+                        <a href="wiki.html" class="item">Wiki</a>
+                    </div>
+                    <button class="btn" id="displayForm">Se connecter</button>
                 </div>
-                
             </div>
+            
+        </div>
+    </div>
 
         <section>
           <div class="sec-container">
@@ -72,7 +71,6 @@
             </div>
           </div>
         </section>
-      </div>
 
       <script>
         const displayform = _('displayForm');
@@ -113,6 +111,5 @@
           document.querySelector('.form-wrapper .card').classList.toggle('show')
         }
       </script>
-
 </body>
 </html>

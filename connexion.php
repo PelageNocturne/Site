@@ -46,44 +46,13 @@
             </div>
         </div>
 
-<?php include 'index.html'; ?>
-
-<form method="post">
-    <input type="text" name="
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="main.js"></script>
+    
+<script src="main.js"></script>
     <footer>
         <h5>Des questions ? Allez sur le Discord et ouvrez un ticket</h5>
         <div class="colonnes">

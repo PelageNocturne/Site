@@ -2,122 +2,95 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="../icon.ico">
-        <title>Lenoria | Accueil</title>
-        <link rel="stylesheet" href="../css/main.css">
+        <link rel="icon" href="icon.ico">
+        <title>Lenoria | Connexion</title>
+        <link rel="stylesheet" href="CSS/login.css">
         <script src="https://kit.fontawesome.com/9ab044b390.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="menu">
-            <div class="back">
-                <div class="mobile">
-                    <span></span>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Lenoria</a>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="reseaux.html">Réseaux</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="#">Launcher</a></li>
+            <li>
+              <button class="btn" id="displayForm">Se connecter</button>
+            </li>
+          </ul>
+        </nav>
+
+        <section>
+          <div class="sec-container">
+            <div class="form-wrapper">
+              <div class="card">
+                <div class="card-header">
+                  <div id="forLogin" class="form-header active">Se connecter</div>
+                  <div id="forRegister" class="form-header">S'inscrire</div>
                 </div>
-                <div class="items">
-                    <a href="index.html" class="item">Accueil</a>
-                    <a href="news.html" class="item">News</a>
-                    <a href="reseaux.html" class="item">Réseaux</a>
-                    <a href="boutique.html" class="item">Boutique</a>
-                    <a href="wiki.html" class="item">Wiki</a>
+
+                <div class="card-body" id="formContainer">
+                  <form id="loginForm" class="toggleForm">
+                    <input type="text" class="form-control" placeholder="Pseudo" />
+                    <input type="password" class="form-control" placeholder="Mot de passe" />
+                    <button class="formButton">Connexion</button>
+                  </form>
+
+                  <form id="registerForm" class="toggleForm">
+                    <input type="text" class="form-control" placeholder="Pseudo" />
+                    <input type="password" class="form-control" placeholder="Mot de passe" />
+                    <input type="password" class="form-control" placeholder="Confirmer mot de passe" />
+                    <button class="formButton">S'inscrire</button>
+                  </form>
                 </div>
-            </div>
-        </div>
-        <div class="RRC-header-bg"></div>
-        <div class="header">
-            <div class="header-nav">
-                <div class="header-inner container">
-                    <div class="RRC-nav-items">
-                        <div class="logo--1">
-                            <img class="logo" src="../icon.ico" alt="logo" width="50">
-                        </div>
-                        <div class="item--1">
-                            <a href="index.html" class="item active">Accueil</a>
-                            <a href="news.html" class="item">News</a>
-                            <a href="reseaux.html" class="item">Réseaux</a>
-                            <a href="boutique.html" class="item">Boutique</a>
-                            <a href="wiki.html" class="item">Wiki</a>
-                        </div>
-                        <div class="item--2">
-                            <a href="connexion.html" class="item-connexion"><button>Connexion</button></a>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-
-        <script src="main.js"></script>
-        <footer>
-            <h5>Des questions ? Allez sur le Discord et ouvrez un ticket</h5>
-            <div class="colonnes">
-                <div class="colonne">
-                    <p><a class="text_footer"></a>À propos</p>
-                    <p>Lenoria est un serveur<br>OneBlock crée en 2021<br>avec un gameplay farm2win<br>et divertissant.</p>
-                </div>
-    
-                <div class="colonne">
-                    <p><a class="text_footer">Nous rejoindre</a></p>
-                    <p><a href="" class="item-download">Windows</a></p>
-                    <p><a href="" class="item-download">Mac</a></p>
-                    <p><a href="" class="item-download">Linux</a></p>
-                </div>
-    
-                <div class="colonne">
-                    <p><a class="text_footer">Nous contacter</a</p>
-                    <p><a href="https://instagram.com" target="_blanck" class="lien_footer">Instagram</a></p>
-                    <p><a href="https://discord.gg/yqTafhC6nP" target="_blanck" class="lien_footer">Discord</a></p>
-                    <p><a href="https://www.youtube.com/channel/UCrpAL7vPtljXq3TASe3gfAQ" target="_blanck" class="lien_footer">YouTube</a></p>
-                </div>
-            </div>
-            <p>Lenoria 2022 Tous Droits Réservés ©</p>
-        </footer>  
-
-
-
-
-
-
-
-
-
-        
-<div class="lenoriaAppGenHeader">
-    <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100">
-          <img src="./assets/images/logo.png" class="lenoriaAppLoginLogo">
-          <div class="d-flex justify-content-center">
-            <div class="lenoriaAppLoginCard card px-5 py-3 text-center">
-              <div class="card-body">
-  
-                <p class="lenoriaAppLoginCardInformation">Utilisez votre compte <u class="store">Mojang</u> pour vous connectez au launcher ou cliquer sur le bouton Microsoft si vous utilisez un compte <u class="store store-mi">Microsoft</u>.</p>
-                <small id="lenoriaAppLoginMecaPasswordError" class="info-login">&nbsp;</small>
-  
-                <div class="form-group text-left mb-1">
-                  <label for="lenoriaAppLoginMecaEmail" class="lenoriaAppLoginCardLabel">Adresse mail</label>
-                  <input type="text" class="form-control pseudo lenoriaAppLoginCardInput" id="lenoriaAppLoginMecaEmail" aria-describedby="lenoriaAppLoginMecaEmailError" spellcheck="false">
-                  <small id="lenoriaAppLoginMecaEmailError" class="form-text text-danger lenoria-mail">&nbsp;</small>
-                </div>
-  
-                <div class="form-group text-left mb-2 online">
-                  <label for="lenoriaAppLoginMecaPassword" class="lenoriaAppLoginCardLabel">Mot de passe</label>
-                  <input type="password" class="form-control password lenoriaAppLoginCardInput" id="lenoriaAppLoginMecaPassword" aria-describedby="lenoriaAppLoginMecaPasswordError" spellcheck="false">
-                  <small id="lenoriaAppLoginMecaPasswordError" class="form-text text-danger lenoria-password">&nbsp;</small>
-                </div>
-  
-                <div class="form-group form-check text-left">
-                  <input type="checkbox" class="loginRemember form-check-input" id="lenoriaAppLoginMecaRemember">
-                  <label class="form-check-label lenoriaAppLoginCardLabel" for="lenoriaAppLoginMecaRemember">Se souvenir de moi</label>
-                </div>
-  
-                <p class="text-left online loginSpanDim">Mot de passe oublié ?</p>
-                <button class="btn login-btn btn-primary lenoriaAppLoginCardSubmit text-uppercase">Connexion</button>
-                <button class="ml-4 microsoft-btn"><img src="./assets/images/logo/microsoft.png" style="border-radius:10px;" width="44"></button>
-                <button class="add-account-cancel" style="display:none;"><img src="./assets/images/logo/back.png" style="border-radius:10px;" width="44"></button>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-    </div>
-  </div>
+
+      <script>
+        const displayform = _('displayForm');
+        const forlogin = _('forLogin');
+        const loginForm =  _('loginForm');
+        const forRegister = _('forRegister');
+        const registerForm = _('registerForm');
+        const formContainer = _('formContainer');
+        displayform.addEventListener('click', showForm);
+
+        forlogin.addEventListener('click', () => {
+          forlogin.classList.add('active');
+          forRegister.classList.remove('active');
+          if(loginForm.classList.contains('toggleForm')) {
+            formContainer.style.transform = 'translate(0%)';
+            formContainer.style.transition = 'transform .5s';
+            registerForm.classList.add('toggleForm');
+            loginForm.classList.remove('toggleForm');
+          }
+        })
+
+        forRegister.addEventListener('click', () => {
+          forlogin.classList.remove('active');
+          forRegister.classList.add('active');
+          if(registerForm.classList.contains('toggleForm')) {
+            formContainer.style.transform = 'translate(-100%)';
+            formContainer.style.transition = 'transform .5s';
+            registerForm.classList.remove('toggleForm');
+            loginForm.classList.add('toggleForm');
+          }
+        })
+
+        function _(e) {
+          return document.getElementById(e);
+        }
+
+        function showForm() {
+          document.querySelector('.form-wrapper .card').classList.toggle('show')
+        }
+      </script>
+
+</body>
+</html>

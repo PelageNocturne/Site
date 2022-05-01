@@ -5,5 +5,5 @@ const body = document.querySelector("body");
 mobile.addEventListener('click',() => {
     mobile.classList.toggle("active");
     menu.classList.toggle("active");
-    body.classList.toggle("active");
+    bodyzd.classList.toggle("active");
 })

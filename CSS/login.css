@@ -132,3 +132,115 @@ body{
 }
 
 
+font-family: "Montserrat", sans-serif;
+color: #fff;
+border: 1px solid transparent;
+padding: 0.5rem 1.5rem;
+background-color: #FDCD2D;
+border-radius: 50px;
+margin-top: 1rem;
+font-size: 1rem;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px;
+}
+
+.form-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex: auto;
+}
+
+.form-wrapper .card {
+width: 360px;
+padding: 20px;
+background-color: rgb(0 0 0 /35%);
+visibility: hidden;
+opacity: 0;
+transition: opacity 0.3s, visibility 0.3s;
+}
+
+.card.show {
+visibility: visible;
+opacity: 1;
+}
+
+.card-header {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 30px 20px 0;
+font-size: 1.1rem;
+color: #FDCD2D;
+box-shadow: 2px 3px 8px #CD9F07;
+border-radius: 50px;
+}
+
+.card-header .form-header {
+flex: 50%;
+text-align: center;
+padding: 10px 0;
+border: 1px solid transparent;
+border-radius: 50px;
+user-select: none;
+cursor: pointer;
+}
+
+.card-header .form-header.active {
+box-shadow: inset 1px 1px 2px rgb(239 188 47 /55%), inset -1px 1px 2px rgb(239 188 47 /55%), inset -1px -1px 2px rgb(239 188 47 /55%), inset 1px -1px 2px rgb(239 188 47 /55%);
+border-color: #FDCD2D;
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.card-body {
+display: flex;
+flex-wrap: nowrap;
+padding: 40px 0;
+text-align: center;
+}
+
+form {
+flex: 0 0 100%;
+}
+
+.toggleForm {
+visibility: hidden;
+opacity: 0;
+transition: opacity 0.3s, visibility 0.3s;
+}
+
+.form-control {
+width: 100%;
+border: none;
+border-bottom: 1px solid rgb(201 152 19 /65%);
+background: none;
+outline: none;
+padding: 10px 5px;
+margin-bottom: 20px;
+color: #fff;
+}
+
+.form-control::placeholder {
+color: rgb(201 152 19 /65%);
+}
+
+.formButton {
+border: 1px solid transparent;
+padding: 1rem 3rem;
+background-color: #FDCD2D;
+border-radius: 50px;
+margin-top: 1rem;
+font-size: 1rem;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.formButton:hover {
+box-shadow: 3px 5px 15px #FDCD2D;
+transform: translateY(-5px);
+}

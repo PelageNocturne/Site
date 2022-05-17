@@ -384,7 +384,7 @@ footer .colonnes {
     transition: all ease 0.3s;
     animation: pulse 2s infinite;
 }
-.button .header-btn:hover {
+.header-btn:hover {
     background: var(--theme-button-background-2);
     color: var(--theme-button-color);
     transition: all ease 0.3s;
@@ -398,7 +398,7 @@ footer .colonnes {
     transform: translateY(-7px);
     transition: all ease 0.3s;
 }
-.button .header-btn .after {
+.header-btn .after {
     position: absolute;
     bottom: 5px;
     left: 0;
@@ -407,7 +407,7 @@ footer .colonnes {
     right: 0;
     transition: all ease 0.3s;
 }
-.button .header-btn:hover .after {
+.header-btn:hover .after {
     opacity: 1;
     transition: all ease 0.3s;
 }

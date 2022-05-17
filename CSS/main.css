@@ -373,9 +373,16 @@ footer .colonnes {
 }
 
 .bouton-copy-ip{
-    margin-right: 30px;
-    margin-top: 30px;
-    align-items: right;
+    background: var(--theme-button-background);
+    color: var(--theme-button-color);
+    padding: 15px 20px;
+    min-width: 200px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 15px;
+    position: relative;
+    transition: all ease 0.3s;
+    animation: pulse 2s infinite;
 }
 
 

@@ -372,7 +372,7 @@ footer .colonnes {
     justify-content: center;
 }
 
-.bouton-copy-ip{
+.header-btn {
     background: var(--theme-button-background);
     color: var(--theme-button-color);
     padding: 15px 20px;
@@ -383,6 +383,33 @@ footer .colonnes {
     position: relative;
     transition: all ease 0.3s;
     animation: pulse 2s infinite;
+}
+.header-btn:hover {
+    background: var(--theme-button-background-2);
+    color: var(--theme-button-color);
+    transition: all ease 0.3s;
+}
+.header-btn .ip {
+    display: block;
+    letter-spacing: 1.2px;
+    transition: all ease 0.3s;
+}
+.header-btn:hover .ip {
+    transform: translateY(-7px);
+    transition: all ease 0.3s;
+}
+.header-btn .after {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    opacity: 0;
+    font-size: 12px;
+    right: 0;
+    transition: all ease 0.3s;
+}
+.header-btn:hover .after {
+    opacity: 1;
+    transition: all ease 0.3s;
 }
 
 

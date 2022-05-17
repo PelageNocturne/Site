@@ -372,6 +372,8 @@ footer .colonnes {
     justify-content: center;
 }
 
+/*Bouton pour copier l'ip*/
+
 .button .header-btn {
     background: var(--theme-button-background);
     color: var(--theme-button-color);
@@ -389,12 +391,12 @@ footer .colonnes {
     color: var(--theme-button-color);
     transition: all ease 0.3s;
 }
-.button .header-btn .ip {
+.header-btn .ip {
     display: block;
     letter-spacing: 1.2px;
     transition: all ease 0.3s;
 }
-.button .header-btn:hover .ip {
+.header-btn:hover .ip {
     transform: translateY(-7px);
     transition: all ease 0.3s;
 }

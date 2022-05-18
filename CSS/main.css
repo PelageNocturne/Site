@@ -32,7 +32,7 @@ body{
     width: 100%;
     height: 100px;
     max-width: calc(100% + 20%);
-    background: #FDCD2D url("wallpaper.jpg") no-repeat/100% auto;
+    background: #FDCD2D url("background-header.jpg") no-repeat/100% auto;
 }
 
 #RRC-header{
